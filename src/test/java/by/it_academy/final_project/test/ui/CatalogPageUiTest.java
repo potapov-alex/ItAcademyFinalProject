@@ -5,7 +5,6 @@ import io.qameta.allure.*;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
-
 public class CatalogPageUiTest extends BaseUiTest {
     private HomePage homePage;
 

@@ -4,12 +4,10 @@ import by.it_academy.final_project.page_object.HomePage;
 import io.qameta.allure.*;
 import org.testng.annotations.Test;
 
-
 import java.util.Arrays;
 import java.util.List;
 
 import static com.codeborne.selenide.Selenide.open;
-
 
 public class HomePageUiTest extends BaseUiTest {
 
@@ -24,7 +22,6 @@ public class HomePageUiTest extends BaseUiTest {
             "Красота и спорт",
             "Детям и мамам",
             "Работа и офис");
-
 
     @Severity(SeverityLevel.NORMAL)
     @Description("Check catalog item title is visible")
